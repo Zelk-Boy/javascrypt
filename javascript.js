@@ -3,7 +3,7 @@
 
     let age = 45;
     console.log(age);
-    const pi = 3.14;
+    let pi = 3.14;
 pi = 10;
 
 console.log(pi); // What will be output?
