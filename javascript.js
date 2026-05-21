@@ -9,4 +9,5 @@ pi = 10;
 
 console.log(pi); // What will be output?
 console.log((4 + 6 + 9) / 77);
+let a = 10
 
