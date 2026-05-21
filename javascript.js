@@ -7,4 +7,5 @@
 pi = 10;
 
 console.log(pi); // What will be output?
+console.log(42+66)
 
