@@ -1,19 +1,18 @@
 body{
   background-color:#121212;
   color:#E0E0E0;
-  display:flex;
-  font: arvo;
+  font-family: Arvo, serif;
 }
 a{
   color: #A9A9A9CC; 
   text-decoration: none;
 }
 .top{
-  background-color:#00E5FF
+  background-color:#00E5FF;
   border-radius: 7px;
 }
 .banner{
-  background-color:#00EAFF
+  background-color:#00EAFF;
   margin:10px;
   padding:5px;
   border: 2px;
@@ -22,6 +21,10 @@ a{
   border-style: double;
 }
 .header-one{
-  margin: 0 20 0 20
+  margin: 0 20px 0 20px;
 }
-
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
