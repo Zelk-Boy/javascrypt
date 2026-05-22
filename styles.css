@@ -1,5 +1,17 @@
+body{
+  background-color:#121212;
+  color:#E0E0E0;
+  display:flex;
+  font: arvo;
+}
 a{
-color: #A9A9A9CC; text-decoration: none;
-
-  
+  color: #A9A9A9CC; 
+  text-decoration: none;
+}
+.top{
+  background-color:#00E5FF
+  border-radius: 7px;
+}
+.banner{
+  background-color:#00EAFF
 }
