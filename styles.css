@@ -14,4 +14,14 @@ a{
 }
 .banner{
   background-color:#00EAFF
+  margin:10px;
+  padding:5px;
+  border: 2px;
+  border-radius: 3px;
+  border-color:#aaaaaa;
+  border-style: double;
 }
+.header-one{
+  margin: 0 20 0 20
+}
+
