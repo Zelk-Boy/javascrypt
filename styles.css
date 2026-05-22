@@ -4,7 +4,7 @@ body{
   font-family: Arvo, serif;
 }
 a{
-  color: #A9A9A9CC; 
+  color: #121212; 
   text-decoration: none;
 }
 .top{
@@ -22,9 +22,16 @@ a{
 }
 .header-one{
   margin: 0 20px 0 20px;
+  color: #121212;
 }
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+h1{
+  color:121212;
+}
+.subtext{
+  color:#121212;
 }
