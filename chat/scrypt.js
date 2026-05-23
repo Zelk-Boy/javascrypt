@@ -8,6 +8,15 @@ button.addEventListener("click", function () {
 
   let text = userInput.value;
 
-  message.textContent = text;
+  if (text === "hello") {
+    message.textContent = "Greetings user.";
+
+  } else if (text === "how are you") {
+    message.textContent = "Zephner Systems AI is functioning normally.";
+
+  } else {
+    message.textContent = "Command not recognized.";
+  }
 
 });
+console.log("JS is alive");
