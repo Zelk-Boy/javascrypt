@@ -15,5 +15,5 @@ let b = 7 *a;
 console.log(b);
 const max = 57;
 const actual = max - 13;
-const percenatge = actual / max;
+const percentage = actual / max;
 console.log(percantage);
