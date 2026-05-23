@@ -2,17 +2,12 @@ let button = document.getElementById("chatButton");
 
 let message = document.getElementById("message");
 
-let responses = [
-  "Greetings user.",
-  "Zephner Systems AI online.",
-  "How may I assist you?",
-  "Systems functioning normally."
-];
+let userInput = document.getElementById("userInput");
 
 button.addEventListener("click", function () {
 
-  let randomNumber = Math.floor(Math.random() * 4);
+  let text = userInput.value;
 
-  message.textContent = responses[randomNumber];
+  message.textContent = text;
 
 });
