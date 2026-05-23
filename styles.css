@@ -39,3 +39,60 @@ h1{
 .header-two{
   color:#121212;
 }  
+.title{
+  padding: 40px;
+}
+
+.second-from-top{
+  margin-top: 30px;
+  padding: 30px;
+  background-color:#1E1E1E;
+  border-radius:7px;
+}
+
+.second-from-top h2{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.cards{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.card{
+  background-color:#2A2A2A;
+  padding:20px;
+  width:250px;
+  border-radius:10px;
+  border:1px solid #00E5FF55;
+}
+
+.card h3{
+  color:#00E5FF;
+}
+
+.about{
+  margin-top:30px;
+  padding:40px;
+  background-color:#1A1A1A;
+  border-radius:7px;
+}
+
+.about h2{
+  color:#00E5FF;
+}
+
+.about p{
+  line-height:1.6;
+}
+
+.footer{
+  margin-top:30px;
+  padding:20px;
+  text-align:center;
+  color:#AAAAAA;
+  font-size:14px;
+}
