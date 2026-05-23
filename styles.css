@@ -24,11 +24,12 @@ a{
   margin: 0 20px 0 20px;
   color: #121212;
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color:#121212;
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px 20px;
+  font-weight:bold;
 }
 h1{
   color:#121212;
@@ -96,7 +97,22 @@ h1{
   color:#AAAAAA;
   font-size:14px;
 }
-img{
-  width:300px;
-  height: auto;
+.banner img{
+  width:100%;
+  height:auto;
+  border-radius:5px;
+  display:block;
+  margin-bottom:15px;
+}
+body{
+  background-color:#121212;
+  color:#E0E0E0;
+  font-family: Arvo, serif;
+  margin:20px;
+}
+
+.top{
+  background-color:#00E5FF;
+  border-radius:7px;
+  overflow:hidden;
 }
