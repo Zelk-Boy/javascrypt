@@ -7,6 +7,8 @@ aiStatus = "online";
 function greet() {
   console.log("Welcome to Zephner Systems");
 }
-if event:click{
-  greet();
-}
+let button = document.getElementById("chatButton");
+
+button.addEventListener("click", function() {
+  console.log("Zephner AI activated");
+});
