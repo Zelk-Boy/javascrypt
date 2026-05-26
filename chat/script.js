@@ -18,5 +18,5 @@ button.addEventListener("mouseleave", function() {
   const chatContainer = document.getElementById('chat');
 
 // This will render as a bold heading
-chatContainer.innerHTML = '<p>No! Don't leave me!';
+chatContainer.innerHTML = '<p class="neverleaveme">No! Do not leave me!</p>';
   title.textContent = input.value;
