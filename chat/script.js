@@ -12,3 +12,4 @@ let button = document.getElementById("chatButton");
 button.addEventListener("click", function() {
   console.log("Zephner AI activated");
 });
+title.style.color = "green";
