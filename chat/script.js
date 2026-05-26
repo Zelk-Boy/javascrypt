@@ -1,3 +1,4 @@
+let input = document.getElementById("userInput");
 console.log("Hello from Zephner Systems!")
 let company = "Zephner Systems";
 console.log(company);
@@ -18,3 +19,4 @@ button.addEventListener("mouseleave", function() {
 
 // This will render as a bold heading
 chatContainer.innerHTML = '<p>No! Don't leave me!';
+  title.textContent = input.value;
