@@ -18,7 +18,7 @@ button.addEventListener("mouseleave", function() {
   const chatContainer = document.getElementById('chat');
 
 // This will render as a bold heading
-chatContainer.innerHTML = "<p class="neverleaveme">No! Don't leave me!</p>";
+chatContainer.innerHTML = '<p class="neverleaveme">No! Do not leave me!</p>';
   title.textContent = input.value;
 let button = document.getElementById("chatButton");
 let title = document.getElementById("title");
@@ -32,3 +32,4 @@ button.addEventListener("mouseleave", function () {
   title.textContent = "Zephner Systems AI";
   title.style.color = "black";
 });
+  
