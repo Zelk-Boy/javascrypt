@@ -26,3 +26,4 @@ button.addEventListener("click", function () {
 
 });
 let test = 67;
+console.log(test);
