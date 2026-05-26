@@ -1,4 +1,4 @@
-console.log(Hello from Zephner Systems!)
+console.log("Hello from Zephner Systems!")
 let company = "Zephner Systems";
 console.log(company);
 let aiStatus = "offline";
