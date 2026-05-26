@@ -33,3 +33,17 @@ button.addEventListener("mouseleave", function () {
   title.style.color = "black";
 });
   
+let button = document.getElementById("chaosButton");
+
+document.addEventListener("mousemove", function (event) {
+
+  let x = event.clientX;
+  let y = event.clientY;
+
+  let offsetX = Math.random() * 80 - 40;
+  let offsetY = Math.random() * 80 - 40;
+
+  button.style.left = (x + offsetX) + "px";
+  button.style.top = (y + offsetY) + "px";
+
+});
