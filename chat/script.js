@@ -43,7 +43,7 @@ document.addEventListener("mousemove", function (event) {
   let offsetX = Math.random() * 80 - 40;
   let offsetY = Math.random() * 80 - 40;
 
-  button.style.left = (x + offsetX) + "px";
-  button.style.top = (y + offsetY) + "px";
+  let offsetX = Math.sin(Date.now() * 0.01) * 60;
+let offsetY = Math.cos(Date.now() * 0.01) * 60;
 
 });
