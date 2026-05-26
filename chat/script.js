@@ -13,3 +13,8 @@ button.addEventListener("click", function() {
   console.log("Zephner AI activated");
 });
 title.style.color = "green";
+button.addEventListener("mouseleave", function() {
+  const chatContainer = document.getElementById('chat');
+
+// This will render as a bold heading
+chatContainer.innerHTML = '<p>No! Don't leave me!';
