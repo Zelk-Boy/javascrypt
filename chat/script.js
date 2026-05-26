@@ -7,4 +7,6 @@ aiStatus = "online";
 function greet() {
   console.log("Welcome to Zephner Systems");
 }
-greet();
+if event:click{
+  greet();
+}
